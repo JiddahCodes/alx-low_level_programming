@@ -1,15 +1,27 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts_half - prints half of a string
+ * @str: input
  */
-int main(void)
+void puts_half(char *str)
 {
-char *str;
+	int len = 0;
 
-str = "0123456789";
-puts_half(str);
-return (0);
+	while (*str != '\0')
+	{
+
+		len++;
+		str++;
+
+	}
+
+	str -= (len / 2);
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+
+	_putchar('\n');
 }
