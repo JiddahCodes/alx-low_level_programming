@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: A program that prints the alphabet in lowercase, followed by a new line.
+ * Desc: Program that prints the alphabet in lowercase, followed by a new line
  * Return: 0
  */
 int main(void)
